@@ -27,45 +27,15 @@ Python, C#, Java, JavaScript, TypeScript,
 
 Flask, FastAPI, ASP.NET Core, Spring Boot, React
 
-### 通信プロトコル
-
-REST
-
-### RDB
-
-PostgreSQL, MySQL, SQLServer
-
 ### クラウド
 
 #### AWS
 
-##### ネットワーク
+VPC・VPC Peering・Route53・CloudFront・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions
 
-VPC・VPC Peering・Route53・CloudFront・ALB
+#### Azure
 
-##### コンピューティング
-
-EC2・ECS・Fargate・Batch・Lambda
-
-##### ストレージ
-
-S3・EBS
-
-##### データベース
-
-RDS・Aurora・ElastiCache for Redis
-
-##### CI/CD
-
-CodePipeline・CodeBuild・CodeDeploy
-
-##### モニタリング
-
-CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge
-
-##### その他
-
-IAM・SES・SSM・Step Functions
+App Service・SQL Database・Azure Blob Storage・Azure DevOps・Azure AD B2C
 
 ### SaaS/PaaS
 
@@ -79,74 +49,62 @@ Terraform・Docker・Datadog
 
 ### パーソルプロセス＆テクノロジー株式会社
 
-#### xxx プロダクト
-
 【雇用形態】
 
-xxx
+正社員
 
 【在籍期間】
 
-yyyy/mm/dd ~ yyyy/mm/dd
+2019/04/01 ~ 2023/05/31
 
-【チーム編成】
+<details>
+<summary>LINEタクシー配車アプリのプロダクト開発</summary>
+
+#### プロジェクトカテゴリ
+
+webサービス/自社プロダクト
+
+#### 担当工程
+
+要件定義・設計・コーディング・テスト
+
+#### 経験した職種・役割
+
+バックエンド・インフラ
+
+#### 使用技術
+
+Python・FastAPI・SQLAlchemy・Alembic・Docker・Terraform・Azure Web Apps・Azure SQL Database・GitHub Actions
+
+#### チーム編成
 
 - PM x 人
 - バックエンドエンジニア x 人
 - フロントエンドエンジニア x 人
 
-【ステークホルダー】
+#### プロジェクト概要
 
-- クライアント x 社
+XXX
 
-【言語・フレームワーク】
+#### 担当
 
-xxx
+XXX
 
-【インフラ】
+#### 課題
 
-- AWS
-  - xxx
+XXX
 
-【通信プロトコル】
+#### 取り組み/解決策
 
-- xxx
+XXX
 
-【ツール】
+#### 成果
 
-xxx
+XXX
 
-【プロダクトが属する業界】
-
-xxx 業界
-
-【プロダクト概要】
-
-xxx
-
-【チームの特徴・課題】
-
-xxx
-
-【チームでの役割】
-
-xxx
-
-【成果】
-
-xxx
+</details>
 
 ### 株式会社リクルート
-
-#### xxx プロダクト
-
-<details>
-<summary>タレントマネジメント系プロダクト開発</summary>
-
-aaaaaaaaaaaaaaaaaaaaa
-bbbbbbbbbbbbbbbbbbb
-ccccccccccccccccccccc
-</details>
 
 【雇用形態】
 
@@ -154,110 +112,51 @@ ccccccccccccccccccccc
 
 【在籍期間】
 
-2023/06/01 ~ 2024/06/15（現在）
+2023/06/01 ~ 現在
 
-【チーム編成】
+<details>
+<summary>タレントマネジメント系プロダクト開発</summary>
 
-- PM x 人
-- バックエンドエンジニア x 人
-- フロントエンドエンジニア x 人
+#### プロジェクトカテゴリ
 
-【ステークホルダー】
+webサービス/自社プロダクト
 
-- クライアント x 社
+#### 担当工程
 
-【言語・フレームワーク】
+要件定義・設計・コーディング・テスト
 
-xxx
+#### 経験した職種・役割
 
-【インフラ】
+PL・テックリード・インフラ
 
-- AWS
-  - xxx
+#### 使用技術
 
-【通信プロトコル】
+Java・Spring Boot・React・Python・Flask・SQLAlchemy・Flyway・VPC・VPC Peering・Route53・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions・Docker・Terraform・GitHub Enterprise・GitHub Actions・Rundeck・Embulk
 
-- xxx
-
-【ツール】
-
-xxx
-
-【プロダクトが属する業界】
-
-xxx 業界
-
-【プロダクト概要】
-
-xxx
-
-【チームの特徴・課題】
-
-xxx
-
-【チームでの役割】
-
-xxx
-
-【成果】
-
-xxx
-
-### EdTech系スタートアップ企業
-
-#### xxx プロダクト
-
-【雇用形態】
-
-副業
-
-【在籍期間】
-
-yyyy/mm/dd ~ yyyy/mm/dd
-
-【チーム編成】
+#### チーム編成
 
 - PM x 人
 - バックエンドエンジニア x 人
 - フロントエンドエンジニア x 人
 
-【ステークホルダー】
+#### プロジェクト概要
 
-- クライアント x 社
+XXX
 
-【言語・フレームワーク】
+#### 担当
 
-xxx
+XXX
 
-【インフラ】
+#### 課題
 
-- AWS
-  - xxx
+XXX
 
-【通信プロトコル】
+#### 取り組み/解決策
 
-- xxx
+XXX
 
-【ツール】
+#### 成果
 
-xxx
+XXX
 
-【プロダクトが属する業界】
-
-xxx 業界
-
-【プロダクト概要】
-
-xxx
-
-【チームの特徴・課題】
-
-xxx
-
-【チームでの役割】
-
-xxx
-
-【成果】
-
-xxx
+</details>
