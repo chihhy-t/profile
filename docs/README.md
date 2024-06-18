@@ -57,52 +57,49 @@ Terraform・Docker・Datadog
 
 2019/04/01 ~ 2023/05/31
 
-<details>
-<summary>LINEタクシー配車アプリのプロダクト開発</summary>
+#### LINEタクシー配車アプリのプロダクト開発
 
-#### プロジェクトカテゴリ
+##### プロジェクトカテゴリ
 
 webサービス/自社プロダクト
 
-#### 担当工程
+##### 担当工程
 
 要件定義・設計・コーディング・テスト
 
-#### 経験した職種・役割
+##### 経験した職種・役割
 
 バックエンド・インフラ
 
-#### 使用技術
+##### 使用技術
 
 Python・FastAPI・SQLAlchemy・Alembic・Docker・Terraform・Azure Web Apps・Azure SQL Database・GitHub Actions
 
-#### チーム編成
+##### チーム編成
 
 - PM x 人
 - バックエンドエンジニア x 人
 - フロントエンドエンジニア x 人
 
-#### プロジェクト概要
+##### プロジェクト概要
 
 XXX
 
-#### 担当
+##### 担当
 
 XXX
 
-#### 課題
+##### 課題
 
 XXX
 
-#### 取り組み/解決策
+##### 取り組み/解決策
 
 XXX
 
-#### 成果
+##### 成果
 
 XXX
-
-</details>
 
 ### 株式会社リクルート
 
@@ -114,49 +111,48 @@ XXX
 
 2023/06/01 ~ 現在
 
-<details>
-<summary>タレントマネジメント系プロダクト開発</summary>
 
-#### プロジェクトカテゴリ
+#### タレントマネジメント系プロダクト開発
+
+##### プロジェクトカテゴリ
 
 webサービス/自社プロダクト
 
-#### 担当工程
+##### 担当工程
 
 要件定義・設計・コーディング・テスト
 
-#### 経験した職種・役割
+##### 経験した職種・役割
 
 PL・テックリード・インフラ
 
-#### 使用技術
+##### 使用技術
 
 Java・Spring Boot・React・Python・Flask・SQLAlchemy・Flyway・VPC・VPC Peering・Route53・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions・Docker・Terraform・GitHub Enterprise・GitHub Actions・Rundeck・Embulk
 
-#### チーム編成
+##### チーム編成
 
 - PM x 人
 - バックエンドエンジニア x 人
 - フロントエンドエンジニア x 人
 
-#### プロジェクト概要
+##### プロジェクト概要
 
 XXX
 
-#### 担当
+##### 担当
 
 XXX
 
-#### 課題
+##### 課題
 
 XXX
 
-#### 取り組み/解決策
+##### 取り組み/解決策
 
 XXX
 
-#### 成果
+##### 成果
 
 XXX
 
-</details>
