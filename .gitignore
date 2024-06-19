@@ -1,0 +1,18 @@
+# General
+.DS_Store
+
+# Visual Studio Code
+.history/*
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Node
+node_modules
+.cache
+
+# Build directories
+dist
+build
