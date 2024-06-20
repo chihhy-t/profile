@@ -10,7 +10,7 @@
     "ja-no-abusage": true,
     "ja-no-mixed-period": {
       "periodMark": "。",
-      "allowPeriodMarks": ["】", "正社員", "現在"],
+      "allowPeriodMarks": ["】", "正社員", "業務委託", "現在"],
       "allowExclamationMarks": ["！"],
       "allowQuestionMarks": ["？"]
     },

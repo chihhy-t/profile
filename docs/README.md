@@ -34,7 +34,7 @@ Flask, FastAPI, ASP.NET Core, Spring Boot, React
 
 #### AWS
 
-・VPC Peering・Route53・CloudFront・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions
+VPC・VPC Peering・Route53・CloudFront・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions
 
 #### Azure
 
@@ -62,44 +62,160 @@ Terraform・Docker・Datadog
 
 #### タレントマネジメント系プロダクト開発
 
-##### プロジェクトカテゴリ
-
-- web サービス/自社プロダクト
-
-##### 担当工程
-
-- 要件定義
-- 設計
-- コーディング
-- テスト
-
 ##### 経験した職種・役割
 
-- PL
-- テックリード
-- インフラ
+【テックリード】
+
+開発進捗管理や報告業務、アーキテクチャ検討・設計・構築などを担当。
+また、技術負債や開発課題の解決策を検討し技術的な推進活動を実施。
+
+【インフラ】
+
+AWS を用いたインフラ構築・運用を担当。
+また、コンテナ移行や EOL 対応などインフラ改善活動を実施。
 
 ##### 使用技術
 
-Java・Spring Boot・React・Python・Flask・SQLAlchemy・Flyway・VPC・VPC Peering・Route53・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions・Docker・Terraform・GitHub Enterprise・GitHub Actions・Rundeck・Embulk
+**フロントエンド**
+
+Node.js 16・React 18・TypeScript 4.9・Vite 4.2
+
+**バックエンド**
+
+Java・Spring Boot 3・Flyway
+Python 3.10・Flask 2.2・SQLAlchemy
+
+**インフラ**
+
+【OS】
+
+Linux（AmazonLinux2・AmazonLinux2023・Ubuntu22.04）
+
+【ミドルウェア】
+
+Amazon Corretto 17・Nginx 1.27・Rundeck 5・Embulk 0.11・PostgreSQL 15・Redis 5
+
+【クラウド】
+
+VPC・VPC Peering・Route53・ALB・EC2・ECS・Fargate・Batch・Lambda・S3・EBS・RDS・Aurora・ElastiCache for Redis・CodePipeline・CodeBuild・CodeDeploy・CloudWatch Logs・CloudWatch Metrics・CloudWatch Alarms・EventBridge・IAM・SES・SSM・Step Functions
+
+【ツール】
+
+GitHub Actions・Terraform 1.8・Docker・Datadog
+
+**その他**
+
+GitHub Enterprise Server・Slack・Figma・Confluence・Backlog・Google Drive/Spreadsheet
 
 ##### チーム編成
 
-- PM x 人
-- バックエンドエンジニア x 人
-- フロントエンドエンジニア x 人
+- PM 1 人
+- ディレクター 2 人
+- テックリード 1 人
+- フロントエンドエンジニア 1 人
+- バックエンドエンジニア 6 人
+- インフラエンジニア 1 人
 
 ##### プロジェクト概要
 
-XXX
-
-##### 担当
-
-XXX
+会社統合をきっかけに、独自で発展していたタレントマネジメントシステムをスクラッチで開発。入社した 2023 年度では、デリバリーのスピード感や品質の向上、レガシーなアーキテクチャなど技術的な課題感が存在していたため、上記の課題解消をするべくアーキテクチャ変更や DevOps の改善、各種 EOL 対応を中心に従事している。
+また、テックリードとして、開発チームのマネジメントや技術的な課題解決をしている。
 
 ##### 課題
 
-XXX
+対応期限が迫っていた EOL 対応の積み残しや、デリバリーや品質の向上を図るためのアーキテクチャ変更など、技術的な課題が存在していた。
+また、専任のインフラ担当者が不在であり、業務を推進できる体制が整っておらず、インフラの改善活動が進まない状況であった。
+
+##### 取り組み/解決策
+
+インフラ専任担当として、積み残してある業務の洗い出しから優先順位付けを行い、業務を進める体制を整えた。
+また、関係者との密なコミュニケーションで、期間やリスクを共有し、スケジュールを調整することで EOL 対応やアーキテクチャ変更を進めた。
+取り組んだ内容は、次の通り。
+
+- Aurora や EC2、ミドルウェアの EOL 対応
+- EC2 から ECS へのコンテナ移行
+- インフラのコード化（Terraform）
+- CI/CD 環境構築
+- AWS アカウントのマルチアカウント化
+- セキュリティ対策
+- ログやメトリクスを Datadog で可視化
+- コスト削減
+- ドキュメントの整備
+
+##### 成果
+
+- GitHub Actions による CI 環境を事前に整備し、テスト自動化を実現したのち、破壊的変更もある Aurora PostgreSQL のメジャーバージョンアップ（v11 → v15）への EOL を不具合 0 件で完遂
+- 手動構築によりブラックボックス化していたインフラを Terraform でコード化し、インフラの再現性を担保
+- シングルアカウントからマルチアカウント化を実施し、本番環境を誤操作するヒューマンリスクを回避
+- 瞬断が発生するデプロイ方法から、Blue/Green デプロイによるゼロダウンタイムデプロイを実現し、リリースの安全性向上とリリースサイクルを短縮
+- 繁忙期に手動でスケールアップしていた作業を、オートスケーリングにより自動化し、コスト削減と運用負荷の軽減を実現
+
+### EdTech スタートアップ企業
+
+【雇用形態】
+
+業務委託
+
+【在籍期間】
+
+2023/08/01 ~ 現在
+
+#### オンラインプログラミング教材のプロダクト開発
+
+##### 経験した職種・役割
+
+【インフラ】
+
+AWS を用いたインフラ構築・運用を担当。
+
+【バックエンド】
+
+Python を用いた API 開発を担当。
+
+##### 使用技術
+
+**バックエンド**
+
+Python 3.10・Flask 2.2・SQLAlchemy
+
+**インフラ**
+
+【OS】
+
+Linux（AmazonLinux2・AmazonLinux2023）
+
+【ミドルウェア】
+
+WordPress・KUSANAGI・Nginx 1.27・MySQL 8
+
+【クラウド】
+
+VPC・Route 53・EC2・ECS・Fargate・Lambda・CloudFront・S3・RDS・IAM
+
+【ツール】
+
+GitHub Actions・Docker・Terraform 1.8
+
+**その他**
+
+GitHub・Slack・Backlog・Google Drive/Spreadsheet・Notion
+
+##### チーム編成
+
+- PM 1 人
+- ディレクター 2 人
+- フロントエンドエンジニア 3 人
+- バックエンドエンジニア 3 人
+- インフラエンジニア 1 人
+
+##### プロジェクト概要
+
+オンラインプログラミングにおける様々な学習教材を提供するプラットフォームの toC 、toBtoC プロダクト開発。
+事業拡大する中で、単一サーバーで提供していた状態では、サービス停止のリスクが高まっていた。
+
+##### 課題
+
+様々な学習教材を単一のサーバーで提供していたが、障害発生時のリスクに対応するため、インフラから分割していく必要があった。
 
 ##### 取り組み/解決策
 
