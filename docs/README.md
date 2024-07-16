@@ -92,6 +92,7 @@ Node.js 16・React 18・TypeScript 4.9・Vite 4.2
 **バックエンド**
 
 Java・Spring Boot 3・Flyway
+
 Python 3.10・Flask 2.2・SQLAlchemy
 
 **インフラ**
@@ -164,8 +165,11 @@ GitHub Enterprise Server・Slack・Figma・Confluence・Backlog・Google Drive/S
   - マルチアカウント化によるデータ保護の強化
   - EC2 や Aurora 、各種ミドルウェアなどの EOL 対応による脆弱性の排除
 - 運用上の優秀性
+  - EC2 から ECS へのコンテナ移行により、運用負荷を軽減し、運用効率を向上
   - Terraform によるインフラのコード化を実現し、変更管理の自動化と一貫性の担保
   - 手動作業が多かったリリース作業を、CI/CD パイプラインとして自動化し、運用手順を改善
+- コスト最適化
+  - Self Hosted Runner の実行環境を EC2 から CodeBuild へ移行し、実行時間に応じた課金体系を導入
 
 ### EdTech スタートアップ企業
 
