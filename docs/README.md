@@ -146,6 +146,8 @@ GitHub Enterprise Server・Slack・Figma・Confluence・Backlog・Google Drive/S
 - EC2 から ECS へのコンテナ移行
 - インフラのコード化（Terraform）
 - CI/CD 環境構築
+- CI 高速化
+- デプロイプロセスの整理と自動化
 - AWS アカウントのマルチアカウント化
 - セキュリティ対策
 - ログやメトリクスを Datadog で可視化
@@ -168,6 +170,8 @@ GitHub Enterprise Server・Slack・Figma・Confluence・Backlog・Google Drive/S
   - EC2 から ECS へのコンテナ移行により、運用負荷を軽減し、運用効率を向上
   - Terraform によるインフラのコード化を実現し、変更管理の自動化と一貫性の担保
   - 手動作業が多かったリリース作業を、CI/CD パイプラインとして自動化し、運用手順を改善
+  - CI 実行環境を EC2 から CodeBuild へ移行し、マルチスレッドでの並列実行を実現し、CI 実行時間を約 1/4 まで高速化
+  - GitHub リリースノートを活用したデプロイプロセスに移行し、リリースの透明性を向上
 - コスト最適化
   - Self Hosted Runner の実行環境を EC2 から CodeBuild へ移行し、実行時間に応じた課金体系を導入
 
